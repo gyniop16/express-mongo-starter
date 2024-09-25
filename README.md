@@ -14,20 +14,20 @@
 
 </div>
 
-# Express Posgresql Starter
+# Express Mongo Starter
 
-This is a starter template for building a full-stack web application with Express and PostgreSQL on the backend and HTML
+This is a starter template for building a full-stack web application with Express and MongoDB on the backend and HTML
 on the frontend. The template is set up to be deployed to Genezio, a platform for building and deploying full-stack web
 applications.
 
 This template includes:
 
-- Sequelize ORM for PostgreSQL
+- Mongoose ORM for Mongo
 - A crud example with a `User` model
 - A simple HTML frontend that uses the backend API for create a new user.
 
 Routes and the logic for handling requests are defined in the `routes` folder. The `models` folder contains the
-Sequelize models for the database.
+Mongoose models for the database.
 
 The `config.js` file contains the configuration for the database connection.
 
@@ -43,7 +43,7 @@ Routes:
 
 :rocket: You can deploy your own version of the template to Genezio with one click:
 
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/Genez-io/express-postgresql-starter)
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/Genez-io/express-mongo-starter)
 
 ## Genezio CLI Commands
 
@@ -67,16 +67,17 @@ To learn more about Genezio, take a look at the following resources:
 
 ## Contact
 
-If you need support or you have any questions, please join us in our [Discord channel](https://discord.gg/uc9H5YKjXv).
+If you need support, or you have any questions, please join us in our [Discord channel](https://discord.gg/uc9H5YKjXv).
 We'd love to chat!
 
 ## Built With
 
 - [Genezio](https://genezio.com/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
 - [Node.JS](https://nodejs.org/en/)
 - [Vite](https://vitejs.dev/)
-- [Express](https://expressjs.com/)
-- [Sequelize](https://sequelize.org/)
 
 ***
 

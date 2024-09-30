@@ -56,4 +56,3 @@ frontend:
     build: npm run build
   environment:
     VITE_API_URL: ${{ backend.functions.express-mongo-starter.url }}
-  subdomain: gold-profound-barnacle

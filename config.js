@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const mongoURI = process.env.EXPRESS_MONGO_STARTER_DATABASE_URL;
+const mongoURI = process.env.MY_MONGO_DB_DATABASE_URL;
 
 const connectDB = async () => {
     try {

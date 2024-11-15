@@ -36,7 +36,7 @@ Routes:
 - `GET /users` - Get all users
 - `GET /users/:id` - Get a user by id
 - `POST /users` - Create a new user
-- `PUT /users/:id` - Update a user by id
+- `PATCH /users/:id` - Update a user by id
 - `DELETE /users/:id` - Delete a user by id
 
 # Deploy

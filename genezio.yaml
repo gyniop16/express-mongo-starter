@@ -22,9 +22,9 @@ backend:
       # The name of the function handler
       handler: handler
       # The entry point for the function.
-      entry: app.js
+      entry: app.mjs
       # The compatibility of the function handler.
-      type: aws
+      type: httpServer
   # Scripts are running in the specified `path` directory.
   scripts:
     # List of scripts to run before deploying the frontend.
@@ -51,8 +51,8 @@ frontend:
   scripts:
     # List of scripts to run before deploying the frontend.
     deploy: npm install
-    local: npm install
     build: npm run build
     start: npm run dev
   environment:
     VITE_API_URL: ${{ backend.functions.express-mongo-starter.url }}
+  subdomain: beige-spontaneous-hedgehog

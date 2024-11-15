@@ -55,4 +55,3 @@ frontend:
     start: npm run dev
   environment:
     VITE_API_URL: ${{ backend.functions.express-mongo-starter.url }}
-  subdomain: beige-spontaneous-hedgehog
